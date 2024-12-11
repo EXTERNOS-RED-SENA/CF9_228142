@@ -102,7 +102,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Control de acceso',
+        titulo: 'Gestión de red',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -154,7 +154,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228142_CF09_DU.pdf',
       },
       {
         icono: 'fas fa-download',

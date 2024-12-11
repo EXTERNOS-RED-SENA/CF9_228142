@@ -30,7 +30,7 @@
 
     .row.bg6.align-items-center.mb-5
       .px-lg-5.px-4
-        .bgw.brad.p-5.my-5
+        .bgw.brad.p-5.my-5.d-none.d-lg-block
           SlyderA(tipo="b")
             .row.justify-content-center
               .col-lg-6.my-2
@@ -57,7 +57,7 @@
                 img.img-a.img-t(src='@/assets/curso/temas/17.png', alt='') 
             .row.justify-content-center
               .col-lg-6.my-2
-                h5.mb-4 UEFI: Avances y Beneficios
+                h5.mb-4 UEFI: Avances y beneficios
                 p La UEFI es la evolución moderna de la BIOS, diseñada para superar sus limitaciones y ofrecer una experiencia más segura y flexible. La UEFI tiene una arquitectura más avanzada, permitiendo tiempos de arranque más rápidos, un mejor manejo de #[i hardware] moderno y soporte para interfaces gráficas.
                 ul.lista-ul.fa-ul
                   li 
@@ -88,8 +88,7 @@
                 img.img-a.img-t(src='@/assets/curso/temas/19.png', alt='') 
             .row.justify-content-center
               .col-lg-6.my-2
-                h5.mb-4 
-                p Diferencias entre BIOS y UEFI:
+                h5.mb-4 Diferencias entre BIOS y UEFI:
                 ul.lista-ul.fa-ul
                   li 
                     i.fas.fa-check.color1
@@ -102,6 +101,84 @@
                     span #[b Interfaz:] La BIOS utiliza una interfaz de texto básica, mientras que la UEFI ofrece una experiencia gráfica con soporte para mouse.                                                           
               .col-lg-5.my-2 
                 img.img-a.img-t(src='@/assets/curso/temas/20.png', alt='')                                                       
+
+
+        .bgw.brad.p-4.my-5.d-block.d-lg-none
+          .row.justify-content-center
+            .col-lg-6.my-2
+              h5.mb-4 Interfaz de configuración: 
+              p La BIOS ofrece una interfaz simple basada en texto a la que se accede presionando una tecla específica (como F2, F10 o Delete) durante el arranque. Desde esta interfaz, se pueden ajustar configuraciones básicas, como el orden de arranque, la gestión de dispositivos, y las opciones de seguridad.
+            .col-lg-5.my-2 
+              img.img-a.img-t(src='@/assets/curso/temas/16.png', alt='') 
+        .bgw.brad.p-4.my-5.d-block.d-lg-none               
+          .row.justify-content-center
+            .col-lg-6.my-2
+              h5.mb-4 Configuraciones comunes: 
+              ul.lista-ul.fa-ul
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Orden de arranque:] Permite elegir el dispositivo desde el cual se iniciará el sistema operativo (disco duro, unidad USB, CD/DVD, etc.).
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Configuración de dispositivos:] Habilita o deshabilita componentes como puertos USB, tarjetas de red, y dispositivos de almacenamiento. 
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Opciones de seguridad:] Incluyen la configuración de contraseñas para proteger el acceso a la BIOS y al equipo.
+
+              p Aunque la BIOS ha sido un estándar durante décadas, tiene algunas limitaciones, como el soporte para particiones de disco mayores de 2 TB y una interfaz anticuada.
+            .col-lg-5.my-2 
+              img.img-a.img-t(src='@/assets/curso/temas/17.png', alt='') 
+        .bgw.brad.p-4.my-5.d-block.d-lg-none              
+          .row.justify-content-center
+            .col-lg-6.my-2
+              h5.mb-4 UEFI: Avances y beneficios
+              p La UEFI es la evolución moderna de la BIOS, diseñada para superar sus limitaciones y ofrecer una experiencia más segura y flexible. La UEFI tiene una arquitectura más avanzada, permitiendo tiempos de arranque más rápidos, un mejor manejo de #[i hardware] moderno y soporte para interfaces gráficas.
+              ul.lista-ul.fa-ul
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Interfaz gráfica y usabilidad:] A diferencia de la BIOS, la UEFI proporciona una interfaz gráfica más intuitiva, con soporte para mouse y configuraciones avanzadas que son más fáciles de manejar.
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Compatibilidad con discos grandes:] La UEFI puede gestionar particiones de disco de hasta 9.4 zettabytes, lo que la hace ideal para sistemas modernos que usan discos de alta capacidad. 
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Funciones de seguridad mejoradas:] Una de las características más importantes de la UEFI es el Secure Boot, que impide que se cargue #[i software] malicioso durante el arranque. Esta función verifica la firma de los sistemas operativos y aplicaciones de arranque, asegurando que solo se ejecute #[i software] confiable.                                                         
+            .col-lg-5.my-2 
+              img.img-a.img-t(src='@/assets/curso/temas/18.png', alt='')
+        .bgw.brad.p-4.my-5.d-block.d-lg-none               
+          .row.justify-content-center
+            .col-lg-6.my-2
+              h5.mb-4 Configuraciones Importantes en UEFI:
+              ul.lista-ul.fa-ul
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Modo de arranque:] La UEFI permite seleccionar entre el modo de arranque UEFI o Legacy (compatibilidad con BIOS antigua). Se debe elegir el modo adecuado según el sistema operativo instalado.
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Administración de hardware:] Se pueden realizar configuraciones avanzadas para gestionar mejor el rendimiento del procesador, la memoria, y las tarjetas gráficas.
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Actualización de firmware:] La UEFI facilita las actualizaciones de firmware, que son necesarias para mantener la compatibilidad con #[i hardware] nuevo y corregir vulnerabilidades de seguridad.                                                         
+            .col-lg-5.my-2 
+              img.img-a.img-t(src='@/assets/curso/temas/19.png', alt='')
+        .bgw.brad.p-4.my-5.d-block.d-lg-none               
+          .row.justify-content-center
+            .col-lg-6.my-2
+              h5.mb-4 Diferencias entre BIOS y UEFI:
+              ul.lista-ul.fa-ul
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Velocidad de arranque:] La UEFI ofrece tiempos de arranque más rápidos debido a su diseño optimizado.
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Seguridad:] UEFI proporciona medidas de seguridad adicionales como el Secure Boot, mientras que la BIOS carece de estas funciones avanzadas.
+                li 
+                  i.fas.fa-check.color1
+                  span #[b Interfaz:] La BIOS utiliza una interfaz de texto básica, mientras que la UEFI ofrece una experiencia gráfica con soporte para mouse.                                                           
+            .col-lg-5.my-2 
+              img.img-a.img-t(src='@/assets/curso/temas/20.png', alt='')                         
+
+
     Separador 
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Sistemas de arranque

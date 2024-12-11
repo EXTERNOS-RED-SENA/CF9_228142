@@ -178,47 +178,47 @@
 
             tbody
               tr
-                td.fst-bold.bgt1 Contraseñas seguras obligatorias
+                td.fst-bold.bgt1 Contraseñas seguras obligatorias.
                 td Exige que las contraseñas tengan una longitud mínima, combinando letras, números y símbolos.
                 td Mejora la seguridad al dificultar los intentos de acceso no autorizado.
 
               tr
-                td.fst-bold.bgt1 Bloqueo de dispositivos USB
+                td.fst-bold.bgt1 Bloqueo de dispositivos USB.
                 td Restringe el uso de dispositivos de almacenamiento USB para evitar la transferencia de datos no autorizados.
                 td Previene el robo de información y la infección por #[i malware] desde USB.
 
               tr
-                td.fst-bold.bgt1 Actualización automática de #[i software] 
+                td.fst-bold.bgt1 Actualización automática de #[i software]. 
                 td Fuerza a todos los equipos a instalar actualizaciones del sistema operativo y #[i software] de seguridad.
                 td Mantiene todos los dispositivos actualizados y protegidos contra vulnerabilidades.
 
               tr
-                td.fst-bold.bgt1 Configuración del Firewall
+                td.fst-bold.bgt1 Configuración del Firewall.
                 td Establece reglas específicas para el firewall en cada dispositivo de la red, permitiendo o denegando tráfico según las necesidades de seguridad.
                 td Controla el tráfico de red y protege los dispositivos de accesos maliciosos.
                 
               tr
-                td.fst-bold.bgt1 Acceso restringido a Panel de Control y Configuración
+                td.fst-bold.bgt1 Acceso restringido a Panel de Control y Configuración.
                 td Impide que los usuarios realicen cambios en la configuración del sistema.
                 td Evita alteraciones que puedan comprometer el rendimiento o la seguridad.
 
               tr
-                td.fst-bold.bgt1 Configuración de proxy en navegadores 
+                td.fst-bold.bgt1 Configuración de proxy en navegadores. 
                 td Define automáticamente el servidor proxy que deben usar los navegadores en la red. 
                 td Controla y monitorea el tráfico de Internet, mejorando la seguridad y la administración del uso de la red. 
 
               tr
-                td.fst-bold.bgt1 Deshabilitar el uso de aplicaciones específicas 
+                td.fst-bold.bgt1 Deshabilitar el uso de aplicaciones específicas. 
                 td Prohíbe la ejecución de #[i software] no autorizado, como programas de entretenimiento o aplicaciones de alto riesgo.
                 td Reduce el riesgo de ejecutar aplicaciones maliciosas y mejora la productividad.
 
               tr
-                td.fst-bold.bgt1 Control de acceso a recursos compartidos
+                td.fst-bold.bgt1 Control de acceso a recursos compartidos.
                 td Configura permisos específicos para que solo ciertos usuarios o grupos puedan acceder a carpetas y archivos en la red.
                 td Protege datos sensibles y organiza el acceso según las necesidades del usuario.
 
               tr
-                td.fst-bold.bgt1 Desconexión automática por inactividad
+                td.fst-bold.bgt1 Desconexión automática por inactividad.
                 td Cierra automáticamente la sesión de los usuarios después de un período de inactividad.
                 td Aumenta la seguridad al reducir la exposición en dispositivos desatendidos.                                                                                                                                
 </template>

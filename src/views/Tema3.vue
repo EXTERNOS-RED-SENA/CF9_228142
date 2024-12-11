@@ -79,49 +79,49 @@
 
             tbody
               tr
-                td.fst-bold.bgt1 Análisis en tiempo real 
+                td.fst-bold.bgt1 Análisis en tiempo real. 
                 td Monitorea continuamente las actividades en el sistema para detectar y bloquear amenazas de inmediato.   
-                td Norton, Kaspersky, Bitdefender
+                td Norton, Kaspersky, Bitdefender.
 
               tr
-                td.fst-bold.bgt1 Actualizaciones de definiciones
+                td.fst-bold.bgt1 Actualizaciones de definiciones.
                 td Las bases de datos de virus y #[i malware] se actualizan regularmente para proteger contra las últimas amenazas conocidas.     
-                td McAfee, Avast, ESET 
+                td McAfee, Avast, ESET. 
 
               tr
-                td.fst-bold.bgt1 Escaneos programados
+                td.fst-bold.bgt1 Escaneos programados.
                 td Permite configurar análisis periódicos del sistema para identificar y eliminar posibles amenazas de manera automática.    
-                td Avira, Sophos, Windows Defender 
+                td Avira, Sophos, Windows Defender. 
 
               tr
-                td.fst-bold.bgt1 Antispyware
+                td.fst-bold.bgt1 Antispyware.
                 td #[i software] especializado en detectar y eliminar programas que recolectan información del usuario sin autorización.    
-                td Malwarebytes, Spybot, Adaware 
+                td Malwarebytes, Spybot, Adaware. 
 
               tr
-                td.fst-bold.bgt1 Antiransomware
+                td.fst-bold.bgt1 Antiransomware.
                 td Ofrece protección contra #[i malware] que cifra archivos y exige un rescate, impidiendo el acceso del usuario a sus datos.    
-                td Bitdefender, Kaspersky, Webroot 
+                td Bitdefender, Kaspersky, Webroot. 
 
               tr
-                td.fst-bold.bgt1 Eliminación de adware
+                td.fst-bold.bgt1 Eliminación de adware.
                 td Identifica y remueve programas que muestran anuncios no deseados o interfieren con la experiencia del usuario en el navegador.    
-                td Malwarebytes, AdwCleaner, Avast 
+                td Malwarebytes, AdwCleaner, Avast. 
 
               tr
-                td.fst-bold.bgt1 Protección web
+                td.fst-bold.bgt1 Protección web.
                 td Analiza y bloquea sitios web maliciosos, evitando que el usuario acceda a páginas que puedan comprometer su seguridad.    
-                td Norton Safe Web, McAfee WebAdvisor 
+                td Norton Safe Web, McAfee WebAdvisor. 
 
               tr
-                td.fst-bold.bgt1 Herramientas de cuarentena
+                td.fst-bold.bgt1 Herramientas de cuarentena.
                 td Aísla los archivos sospechosos para evitar que afecten al sistema hasta que se decida eliminarlos o restaurarlos.   
-                td AVG, Kaspersky, Windows Defender 
+                td AVG, Kaspersky, Windows Defender. 
 
               tr
-                td.fst-bold.bgt1 Informes y notificaciones
+                td.fst-bold.bgt1 Informes y notificaciones.
                 td Proporciona reportes detallados sobre las amenazas detectadas y notifica al usuario cuando se requiere acción inmediata.     
-                td Symantec, Trend Micro, F-Secure
+                td Symantec, Trend Micro, F-Secure.
                 
 
     Separador 
@@ -152,7 +152,7 @@
                   li 
                     i.fas.fa-check.color1
                     span Acceso a datos sensibles: Limitar el acceso a información crítica solo a personas autorizadas es importante para prevenir fugas o robos de datos. Esto incluye el uso de permisos específicos y autenticación multifactorial (MFA) cuando sea posible.                   
-              div(titulo="Microsoft Hyper-V")
+              div(titulo="Concienciación y capacitación")
                 p La formación de los usuarios en buenas prácticas de seguridad es fundamental para minimizar riesgos. Esto incluye el reconocimiento de correos electrónicos de phishing, la importancia de no compartir contraseñas, y la precaución al conectar dispositivos USB desconocidos.  
 
     Separador 
@@ -183,7 +183,7 @@
                 i.fas.fa-check.color1
                 span #[b Listas de control de acceso (ACLs):] Especifican qué usuarios o grupos tienen permiso para acceder a ciertos recursos, y qué acciones pueden realizar (leer, escribir, ejecutar).             
 
-      .py-3.py-md-4.bg11(titulo="Herramientas y métodos de control de acceso: ")
+      .py-3.py-md-4.bg11(titulo="Herramientas y métodos de control de acceso")
         .row.justify-content-center.py-4
           .col-lg-4.my-lg-0.my-3
             img.img-a.img-t(src='@/assets/curso/temas/34.png' alt='')  

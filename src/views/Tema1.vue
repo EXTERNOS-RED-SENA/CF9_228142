@@ -18,7 +18,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-botones
           h5 Figura 1.
-          span Equipos de certificación y parámetros de medición
+          span Virtualización de sistemas y su gestión
         
         .bgfig.p-5.brad.mb-2
           img.img-a.img-t(src='@/assets/curso/temas/5.svg' alt='La Figura 1 se denomina «Virtualización de sistemas y su gestión» y presenta un resumen detallado de los principales conceptos relacionados con la virtualización de sistemas, incluyendo los tipos de virtualización, las plataformas utilizadas y las mejores prácticas para la gestión de recursos.') 
